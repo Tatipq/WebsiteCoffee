@@ -12,3 +12,8 @@ function myNav(){
     }
 }
 myNav();
+
+window.onload = ()=>{
+    let homeContent = document.querySelector(".home-content");
+    homeContent.style.left = "58px"
+}
